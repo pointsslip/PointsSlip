@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CDC44FD2E2F2FA200645362 /* PointsSlip Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9CDC44FC2E2F2FA200645362 /* PointsSlip Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CDC44E72E2F2FA200645362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC44D12E2F2F9F00645362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDC44D82E2F2FA000645362;
+			remoteInfo = PointsSlip;
+		};
+		9CDC44F12E2F2FA200645362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC44D12E2F2F9F00645362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDC44D82E2F2FA000645362;
+			remoteInfo = PointsSlip;
+		};
+		9CDC44FE2E2F2FA200645362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC44D12E2F2F9F00645362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDC44FB2E2F2FA200645362;
+			remoteInfo = "PointsSlip Watch App";
+		};
+		9CDC450C2E2F2FA400645362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC44D12E2F2F9F00645362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDC44FB2E2F2FA200645362;
+			remoteInfo = "PointsSlip Watch App";
+		};
+		9CDC45162E2F2FA400645362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC44D12E2F2F9F00645362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDC44FB2E2F2FA200645362;
+			remoteInfo = "PointsSlip Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9CDC45222E2F2FA400645362 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9CDC44FD2E2F2FA200645362 /* PointsSlip Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9CDC44D92E2F2FA000645362 /* PointsSlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointsSlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDC44E62E2F2FA200645362 /* PointsSlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointsSlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDC44F02E2F2FA200645362 /* PointsSlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointsSlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDC44FC2E2F2FA200645362 /* PointsSlip Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PointsSlip Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDC450B2E2F2FA400645362 /* PointsSlip Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PointsSlip Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDC45152E2F2FA400645362 /* PointsSlip Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PointsSlip Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9CDC44DB2E2F2FA000645362 /* PointsSlip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PointsSlip;
+			sourceTree = "<group>";
+		};
+		9CDC44E92E2F2FA200645362 /* PointsSlipTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PointsSlipTests;
+			sourceTree = "<group>";
+		};
+		9CDC44F32E2F2FA200645362 /* PointsSlipUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PointsSlipUITests;
+			sourceTree = "<group>";
+		};
+		9CDC45002E2F2FA200645362 /* PointsSlip Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PointsSlip Watch App";
+			sourceTree = "<group>";
+		};
+		9CDC450E2E2F2FA400645362 /* PointsSlip Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PointsSlip Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9CDC45182E2F2FA400645362 /* PointsSlip Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PointsSlip Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CDC44D62E2F2FA000645362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44E32E2F2FA200645362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44ED2E2F2FA200645362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44F92E2F2FA200645362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC45082E2F2FA400645362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC45122E2F2FA400645362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CDC44D02E2F2F9F00645362 = {
+			isa = PBXGroup;
+			children = (
+				9CDC44DB2E2F2FA000645362 /* PointsSlip */,
+				9CDC44E92E2F2FA200645362 /* PointsSlipTests */,
+				9CDC44F32E2F2FA200645362 /* PointsSlipUITests */,
+				9CDC45002E2F2FA200645362 /* PointsSlip Watch App */,
+				9CDC450E2E2F2FA400645362 /* PointsSlip Watch AppTests */,
+				9CDC45182E2F2FA400645362 /* PointsSlip Watch AppUITests */,
+				9CDC44DA2E2F2FA000645362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CDC44DA2E2F2FA000645362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CDC44D92E2F2FA000645362 /* PointsSlip.app */,
+				9CDC44E62E2F2FA200645362 /* PointsSlipTests.xctest */,
+				9CDC44F02E2F2FA200645362 /* PointsSlipUITests.xctest */,
+				9CDC44FC2E2F2FA200645362 /* PointsSlip Watch App.app */,
+				9CDC450B2E2F2FA400645362 /* PointsSlip Watch AppTests.xctest */,
+				9CDC45152E2F2FA400645362 /* PointsSlip Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CDC44D82E2F2FA000645362 /* PointsSlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDC45232E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip" */;
+			buildPhases = (
+				9CDC44D52E2F2FA000645362 /* Sources */,
+				9CDC44D62E2F2FA000645362 /* Frameworks */,
+				9CDC44D72E2F2FA000645362 /* Resources */,
+				9CDC45222E2F2FA400645362 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDC44FF2E2F2FA200645362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CDC44DB2E2F2FA000645362 /* PointsSlip */,
+			);
+			name = PointsSlip;
+			packageProductDependencies = (
+			);
+			productName = PointsSlip;
+			productReference = 9CDC44D92E2F2FA000645362 /* PointsSlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CDC44E52E2F2FA200645362 /* PointsSlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDC45262E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlipTests" */;
+			buildPhases = (
+				9CDC44E22E2F2FA200645362 /* Sources */,
+				9CDC44E32E2F2FA200645362 /* Frameworks */,
+				9CDC44E42E2F2FA200645362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDC44E82E2F2FA200645362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CDC44E92E2F2FA200645362 /* PointsSlipTests */,
+			);
+			name = PointsSlipTests;
+			packageProductDependencies = (
+			);
+			productName = PointsSlipTests;
+			productReference = 9CDC44E62E2F2FA200645362 /* PointsSlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CDC44EF2E2F2FA200645362 /* PointsSlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDC45292E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlipUITests" */;
+			buildPhases = (
+				9CDC44EC2E2F2FA200645362 /* Sources */,
+				9CDC44ED2E2F2FA200645362 /* Frameworks */,
+				9CDC44EE2E2F2FA200645362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDC44F22E2F2FA200645362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CDC44F32E2F2FA200645362 /* PointsSlipUITests */,
+			);
+			name = PointsSlipUITests;
+			packageProductDependencies = (
+			);
+			productName = PointsSlipUITests;
+			productReference = 9CDC44F02E2F2FA200645362 /* PointsSlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDC451F2E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip Watch App" */;
+			buildPhases = (
+				9CDC44F82E2F2FA200645362 /* Sources */,
+				9CDC44F92E2F2FA200645362 /* Frameworks */,
+				9CDC44FA2E2F2FA200645362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9CDC45002E2F2FA200645362 /* PointsSlip Watch App */,
+			);
+			name = "PointsSlip Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PointsSlip Watch App";
+			productReference = 9CDC44FC2E2F2FA200645362 /* PointsSlip Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CDC450A2E2F2FA400645362 /* PointsSlip Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDC452C2E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip Watch AppTests" */;
+			buildPhases = (
+				9CDC45072E2F2FA400645362 /* Sources */,
+				9CDC45082E2F2FA400645362 /* Frameworks */,
+				9CDC45092E2F2FA400645362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDC450D2E2F2FA400645362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CDC450E2E2F2FA400645362 /* PointsSlip Watch AppTests */,
+			);
+			name = "PointsSlip Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PointsSlip Watch AppTests";
+			productReference = 9CDC450B2E2F2FA400645362 /* PointsSlip Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CDC45142E2F2FA400645362 /* PointsSlip Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDC452F2E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip Watch AppUITests" */;
+			buildPhases = (
+				9CDC45112E2F2FA400645362 /* Sources */,
+				9CDC45122E2F2FA400645362 /* Frameworks */,
+				9CDC45132E2F2FA400645362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDC45172E2F2FA400645362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CDC45182E2F2FA400645362 /* PointsSlip Watch AppUITests */,
+			);
+			name = "PointsSlip Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PointsSlip Watch AppUITests";
+			productReference = 9CDC45152E2F2FA400645362 /* PointsSlip Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CDC44D12E2F2F9F00645362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					9CDC44D82E2F2FA000645362 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9CDC44E52E2F2FA200645362 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9CDC44D82E2F2FA000645362;
+					};
+					9CDC44EF2E2F2FA200645362 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9CDC44D82E2F2FA000645362;
+					};
+					9CDC44FB2E2F2FA200645362 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9CDC450A2E2F2FA400645362 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9CDC44FB2E2F2FA200645362;
+					};
+					9CDC45142E2F2FA400645362 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9CDC44FB2E2F2FA200645362;
+					};
+				};
+			};
+			buildConfigurationList = 9CDC44D42E2F2F9F00645362 /* Build configuration list for PBXProject "PointsSlip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CDC44D02E2F2F9F00645362;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9CDC44DA2E2F2FA000645362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CDC44D82E2F2FA000645362 /* PointsSlip */,
+				9CDC44E52E2F2FA200645362 /* PointsSlipTests */,
+				9CDC44EF2E2F2FA200645362 /* PointsSlipUITests */,
+				9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */,
+				9CDC450A2E2F2FA400645362 /* PointsSlip Watch AppTests */,
+				9CDC45142E2F2FA400645362 /* PointsSlip Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CDC44D72E2F2FA000645362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44E42E2F2FA200645362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44EE2E2F2FA200645362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44FA2E2F2FA200645362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC45092E2F2FA400645362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC45132E2F2FA400645362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CDC44D52E2F2FA000645362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44E22E2F2FA200645362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44EC2E2F2FA200645362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC44F82E2F2FA200645362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC45072E2F2FA400645362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDC45112E2F2FA400645362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CDC44E82E2F2FA200645362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDC44D82E2F2FA000645362 /* PointsSlip */;
+			targetProxy = 9CDC44E72E2F2FA200645362 /* PBXContainerItemProxy */;
+		};
+		9CDC44F22E2F2FA200645362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDC44D82E2F2FA000645362 /* PointsSlip */;
+			targetProxy = 9CDC44F12E2F2FA200645362 /* PBXContainerItemProxy */;
+		};
+		9CDC44FF2E2F2FA200645362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */;
+			targetProxy = 9CDC44FE2E2F2FA200645362 /* PBXContainerItemProxy */;
+		};
+		9CDC450D2E2F2FA400645362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */;
+			targetProxy = 9CDC450C2E2F2FA400645362 /* PBXContainerItemProxy */;
+		};
+		9CDC45172E2F2FA400645362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */;
+			targetProxy = 9CDC45162E2F2FA400645362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9CDC451D2E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CDC451E2E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9CDC45202E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.DelphiGamerz.PointsSlip;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		9CDC45212E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.DelphiGamerz.PointsSlip;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		9CDC45242E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CDC45252E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CDC45272E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointsSlip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointsSlip";
+			};
+			name = Debug;
+		};
+		9CDC45282E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointsSlip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointsSlip";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CDC452A2E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PointsSlip;
+			};
+			name = Debug;
+		};
+		9CDC452B2E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DelphiGamerz.PointsSlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PointsSlip;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CDC452D2E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DelphiGamerz.PointsSlip-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointsSlip Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointsSlip Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		9CDC452E2E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DelphiGamerz.PointsSlip-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointsSlip Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointsSlip Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		9CDC45302E2F2FA400645362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DelphiGamerz.PointsSlip-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PointsSlip Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		9CDC45312E2F2FA400645362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA5QQ65S8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DelphiGamerz.PointsSlip-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PointsSlip Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CDC44D42E2F2F9F00645362 /* Build configuration list for PBXProject "PointsSlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC451D2E2F2FA400645362 /* Debug */,
+				9CDC451E2E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDC451F2E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC45202E2F2FA400645362 /* Debug */,
+				9CDC45212E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDC45232E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC45242E2F2FA400645362 /* Debug */,
+				9CDC45252E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDC45262E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC45272E2F2FA400645362 /* Debug */,
+				9CDC45282E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDC45292E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC452A2E2F2FA400645362 /* Debug */,
+				9CDC452B2E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDC452C2E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC452D2E2F2FA400645362 /* Debug */,
+				9CDC452E2E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDC452F2E2F2FA400645362 /* Build configuration list for PBXNativeTarget "PointsSlip Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDC45302E2F2FA400645362 /* Debug */,
+				9CDC45312E2F2FA400645362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CDC44D12E2F2F9F00645362 /* Project object */;
+}

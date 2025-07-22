@@ -71,6 +71,25 @@
 		9CDC45152E2F2FA400645362 /* PointsSlip Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PointsSlip Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9CDC45402E2F301F00645362 /* Exceptions for "PointsSlipUITests" folder in "PointsSlipUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PointsSlipUITests.swift,
+				PointsSlipUITestsLaunchTests.swift,
+			);
+			target = 9CDC44EF2E2F2FA200645362 /* PointsSlipUITests */;
+		};
+		9CDC45412E2F301F00645362 /* Exceptions for "PointsSlipUITests" folder in "PointsSlip Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PointsSlipUITests.swift,
+				PointsSlipUITestsLaunchTests.swift,
+			);
+			target = 9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9CDC44DB2E2F2FA000645362 /* PointsSlip */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -80,11 +99,6 @@
 		9CDC44E92E2F2FA200645362 /* PointsSlipTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PointsSlipTests;
-			sourceTree = "<group>";
-		};
-		9CDC44F32E2F2FA200645362 /* PointsSlipUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PointsSlipUITests;
 			sourceTree = "<group>";
 		};
 		9CDC45002E2F2FA200645362 /* PointsSlip Watch App */ = {
@@ -100,6 +114,15 @@
 		9CDC45182E2F2FA400645362 /* PointsSlip Watch AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "PointsSlip Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		9CDC453D2E2F301F00645362 /* PointsSlipUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9CDC45412E2F301F00645362 /* Exceptions for "PointsSlipUITests" folder in "PointsSlip Watch App" target */,
+				9CDC45402E2F301F00645362 /* Exceptions for "PointsSlipUITests" folder in "PointsSlipUITests" target */,
+			);
+			path = PointsSlipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -154,12 +177,12 @@
 			isa = PBXGroup;
 			children = (
 				9CDC44DB2E2F2FA000645362 /* PointsSlip */,
-				9CDC44E92E2F2FA200645362 /* PointsSlipTests */,
-				9CDC44F32E2F2FA200645362 /* PointsSlipUITests */,
 				9CDC45002E2F2FA200645362 /* PointsSlip Watch App */,
+				9CDC44DA2E2F2FA000645362 /* Products */,
+				9CDC453D2E2F301F00645362 /* PointsSlipUITests */,
+				9CDC44E92E2F2FA200645362 /* PointsSlipTests */,
 				9CDC450E2E2F2FA400645362 /* PointsSlip Watch AppTests */,
 				9CDC45182E2F2FA400645362 /* PointsSlip Watch AppUITests */,
-				9CDC44DA2E2F2FA000645362 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,9 +262,6 @@
 			dependencies = (
 				9CDC44F22E2F2FA200645362 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9CDC44F32E2F2FA200645362 /* PointsSlipUITests */,
-			);
 			name = PointsSlipUITests;
 			packageProductDependencies = (
 			);
@@ -263,6 +283,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				9CDC45002E2F2FA200645362 /* PointsSlip Watch App */,
+				9CDC453D2E2F301F00645362 /* PointsSlipUITests */,
 			);
 			name = "PointsSlip Watch App";
 			packageProductDependencies = (
@@ -366,9 +387,9 @@
 			projectRoot = "";
 			targets = (
 				9CDC44D82E2F2FA000645362 /* PointsSlip */,
+				9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */,
 				9CDC44E52E2F2FA200645362 /* PointsSlipTests */,
 				9CDC44EF2E2F2FA200645362 /* PointsSlipUITests */,
-				9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */,
 				9CDC450A2E2F2FA400645362 /* PointsSlip Watch AppTests */,
 				9CDC45142E2F2FA400645362 /* PointsSlip Watch AppUITests */,
 			);
@@ -620,9 +641,10 @@
 				DEVELOPMENT_TEAM = XLA5QQ65S8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_CFBundleDisplayName = "Points Slip";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.DelphiGamerz.PointsSlip;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,7 +657,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Debug;
 		};
@@ -649,9 +671,10 @@
 				DEVELOPMENT_TEAM = XLA5QQ65S8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_CFBundleDisplayName = "Points Slip";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.DelphiGamerz.PointsSlip;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -665,7 +688,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Release;
 		};
@@ -674,12 +697,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XLA5QQ65S8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_CFBundleDisplayName = "Points Slip Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -705,12 +730,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XLA5QQ65S8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PointsSlip;
+				INFOPLIST_KEY_CFBundleDisplayName = "Points Slip Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

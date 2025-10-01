@@ -72,6 +72,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9C0F005F2E8D9C8B00C49E39 /* Exceptions for "PointsSlip" folder in "PointsSlip Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 9CDC44FB2E2F2FA200645362 /* PointsSlip Watch App */;
+		};
 		9CDC45402E2F301F00645362 /* Exceptions for "PointsSlipUITests" folder in "PointsSlipUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -93,6 +100,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9CDC44DB2E2F2FA000645362 /* PointsSlip */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9C0F005F2E8D9C8B00C49E39 /* Exceptions for "PointsSlip" folder in "PointsSlip Watch App" target */,
+			);
 			path = PointsSlip;
 			sourceTree = "<group>";
 		};
